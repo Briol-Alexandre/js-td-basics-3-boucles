@@ -5,6 +5,25 @@ Ecrivez un programme qui affiche tous les nombres entre 1 et 100 avec les except
 - Il affiche "FizzBuzz" à la place du nombre si celui-ci est divisible à la fois par 3 et par 5.
 */
 
+/*
+for (let i = 1; i <= 100; i++) {
+    if (i % 15 === 0){
+        console.log('FizzBuzz');
+    } else if (i % 5 === 0){
+        console.log('Buzz');
+    }else if (i % 3 === 0) {
+        console.log('Fizz');
+    }else{
+        console.log(i);
+    }
+}
+*/
+
+// sur une seule ligne (OPERATEUR TERNAIRE)
+for (let i = 100; i> 0; console.log(i % 15 === 0 ? 'FizzBuzz' : i % 3 === 0 ?'Fizz':i % 5 === 0 ? 'Buzz': i), i--) {
+} // inversé
+
+
 /* RAPPELS - AIDES :
 - Vous aurez besoin de deux structures de contrôle pour réaliser cet exercice : les tests et les boucles.
 - Vous devrez également utiliser l'opérateur modulo %, qui renvoie le reste de la division d'un entier par un autre.

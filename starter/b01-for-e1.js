@@ -23,9 +23,49 @@ EXEMPLE 1 :
 */
 
 // 1°) sans boucle : Écrivez ici toutes les instructions à la main, une par une
-
+let num=1;
+console.log(num);
+num =2;
+console.log(num);
+num =3;
+console.log(num);
+num =4;
+console.log(num);
+num =5;
+console.log(num);
+num =6;
+console.log(num);
+num =7;
+console.log(num);
+num =8;
+console.log(num);
+num =9;
+console.log(num);
+num= 10;
+console.log(num);
+num= 11;
+console.log(num);
+num= 12;
+console.log(num);
+num= 13;
+console.log(num);
+num= 14;
+console.log(num);
+num= 15;
+console.log(num);
+num= 16;
+console.log(num);
+num= 17;
+console.log(num);
+num = 18;
+console.log(num);
+num= 19;
+console.log(num);
 // 2°) avec boucle FOR : Écrivez ici le code de la boucle FOR
 
+for (let i =1; i<18; i++){
+    console.log(i)
+}
 // N.B. TABLE D'ÉVOLUTION DES VARIABLES :
 //   nbre      nbre < =10           console.log(nbre)        nbre++
 // nbre = 1,   1 < 5 true,           affiche 1,          nbre passe à 1+1 = 2
