@@ -25,3 +25,8 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+const valMult = parseInt(prompt('Voici les 10 premières valeurs de la table de multiplication par …'));
+for (let i = 1; i <= 10; i ++) {
+    console.log(`${i}*${valMult}=${i*valMult}`);
+
+}
