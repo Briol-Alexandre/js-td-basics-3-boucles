@@ -15,6 +15,17 @@ N.B. Faites-le de deux manières différentes :
 // Commencez par demander à l'utilisateur la table de multiplication souhaitée et le nombre de valeurs à afficher
 // Ensuite, utilisez une boucle FOR pour calculer et afficher les x premières valeurs de la table de multiplication
 
+let table =prompt('Choisissez la table a afficher');
+let time = prompt('Combien de valeurs voulez-vous afficher ?');
+/*for (;table<=time;table++){
+    console.log(`${table}*${time}=${time*table}`);
+}
+*/
+
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+while(table<=time){
+    table++
+    console.log(`${table}*${time}=${time*table}`);
+}

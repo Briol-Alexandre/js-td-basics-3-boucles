@@ -8,7 +8,7 @@
 */
 
 /*
-EXEMPLE 1 : Boucle WHILE infinie
+EXEMPLE 1 : Boucle WHILE infini
 - Vous devez écrire une boucle 'while' pour afficher les nombres de 1 à 5.
 - Assurez-vous d'initialiser une variable 'nombre' à 1 pour indiquer où commence la séquence.
 - Utilisez une condition pour vérifier que 'nombre' est inférieur ou égal à 5, ce qui indique quand s'arrêter.
@@ -22,3 +22,8 @@ CORRECTION :
 - Incrémentez 'nombre' à chaque itération pour éviter une boucle infinie.
 
 */
+let i=0;
+while (i<5){
+    i++
+    console.log(i);
+}
